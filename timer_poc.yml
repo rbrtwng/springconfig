@@ -1,0 +1,30 @@
+---
+
+spring:
+  profiles: dev  
+  WHICHENV: DEV
+
+---
+
+spring:
+    profiles: test
+    WHICHENV: TEST
+
+---
+
+spring:
+    profiles: stage
+    WHICHENV: STAGE
+
+---
+
+spring :
+     profiles: prod
+     WHICHENV: PROD
+     
+---
+
+
+       
+
+
