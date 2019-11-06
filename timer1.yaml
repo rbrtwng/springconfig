@@ -1,0 +1,21 @@
+---
+
+  profiles: dev  
+  WHICHENV: DEV
+
+---
+
+    profiles: test
+    WHICHENV: TEST
+
+---
+
+    profiles: stage
+    WHICHENV: STAGE
+
+---
+
+     profiles: prod
+     WHICHENV: PROD
+     
+---
